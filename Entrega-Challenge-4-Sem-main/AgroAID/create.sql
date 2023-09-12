@@ -1,0 +1,1 @@
+create table tb_gpt_chat (id_chatgpt number generated as identity, cl_pergunta varchar2(1000), cl_resposta varchar2(1000), primary key (id_chatgpt));
